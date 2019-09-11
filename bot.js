@@ -208,7 +208,7 @@ client.on('message', fkk => {
 })
 
 
-client.on('ready', () => {
+client.on('ready', ($) => {
    console.log(`----------------`);
       console.log(`Cyhper Script By : DREAM`);
         console.log(`----------------`);
